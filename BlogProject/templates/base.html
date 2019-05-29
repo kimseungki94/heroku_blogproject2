@@ -35,6 +35,9 @@
                     <li class="nav-item">
                         <a class="nav-item nav-link" href="{% url 'home' %}">수료증</a>
                     </li>
+                    <li class="nav-item">
+                            <a class="nav-item nav-link" href="{% url 'admin' %}">관리자</a>
+                        </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
